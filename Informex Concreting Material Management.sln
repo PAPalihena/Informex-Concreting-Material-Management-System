@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Informex Concreting Material Management", "Informex Concreting Material Management\Informex Concreting Material Management.csproj", "{03F149D5-5333-46BB-B9B7-6320D1F63BA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03F149D5-5333-46BB-B9B7-6320D1F63BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F149D5-5333-46BB-B9B7-6320D1F63BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F149D5-5333-46BB-B9B7-6320D1F63BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F149D5-5333-46BB-B9B7-6320D1F63BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {121D22F0-24BF-4D7A-B827-30F82BBB1A41}
+	EndGlobalSection
+EndGlobal
