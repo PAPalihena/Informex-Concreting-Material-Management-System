@@ -57,7 +57,7 @@ namespace Informex_Concreting_Material_Management
                 catch
                 {
 
-                    MessageBox.Show("Unsuccessful !");
+                    
                 }
 
             }
@@ -156,6 +156,10 @@ namespace Informex_Concreting_Material_Management
         {
             new Report().Show();
             this.Hide();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
         }
     }
 }

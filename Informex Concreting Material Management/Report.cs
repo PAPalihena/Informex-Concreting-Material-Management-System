@@ -68,7 +68,7 @@ namespace Informex_Concreting_Material_Management
                 while (dr.Read())
                 {
                     chart1.Series["Stock in"].Points.AddXY("Cement", dr.GetValue(0));
-                    txtcementin.Text = dr.GetValue(0).ToString();
+                    txtcementin.Text = dr.GetValue(0).ToString();                                                    
                     chart1.Series["Stock out"].Points.AddXY("", dr.GetValue(1));
                     txtcementout.Text = dr.GetValue(1).ToString();
 
@@ -99,8 +99,7 @@ namespace Informex_Concreting_Material_Management
                     chart1.Series["Stock out"].Points.AddXY("", dr.GetValue(11));
                     txthypercreteout.Text = dr.GetValue(11).ToString();
                 }
-
-                
+                                
             }
         }
 
@@ -108,6 +107,33 @@ namespace Informex_Concreting_Material_Management
         {
             new Cementuse().Show();
             this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(strConnString);
+            con.Open();
+            SqlCommand c1;
+            if (con.State == System.Data.ConnectionState.Open)
+            {
+
+                String q1 = "getSandAvailable";
+                c1 = new SqlCommand(q1, con);
+                c1.CommandType = System.Data.CommandType.StoredProcedure;
+                SqlDataReader dr1 = c1.ExecuteReader();
+                dr1.Read();
+                txtusand.Text = dr1["availableUsand"].ToString();
+                txtcement.Text = dr1["availableCement"].ToString();
+                txtadcrete.Text = dr1["availableAdcrete"].ToString();
+                txthypercrete.Text = dr1["availableHypercrete"].ToString();
+                txtcsand.Text = dr1["availableCSand"].ToString();
+                txtmetal.Text = dr1["availableMetal"].ToString();
+            }
+        }
+
+        private void txtusandin_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

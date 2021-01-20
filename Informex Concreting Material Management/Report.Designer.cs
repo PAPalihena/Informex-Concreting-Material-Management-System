@@ -30,10 +30,10 @@ namespace Informex_Concreting_Material_Management
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Report));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1 = new System.Windows.Forms.Panel();
             this.Close = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -77,6 +77,7 @@ namespace Informex_Concreting_Material_Management
             this.CEMENT = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.button7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -299,162 +300,163 @@ namespace Informex_Concreting_Material_Management
             this.txtadcrete.AutoSize = true;
             this.txtadcrete.Location = new System.Drawing.Point(407, 161);
             this.txtadcrete.Name = "txtadcrete";
-            this.txtadcrete.Size = new System.Drawing.Size(37, 13);
+            this.txtadcrete.Size = new System.Drawing.Size(13, 13);
             this.txtadcrete.TabIndex = 35;
-            this.txtadcrete.Text = "42000";
+            this.txtadcrete.Text = "0";
             // 
             // txtusand
             // 
             this.txtusand.AutoSize = true;
             this.txtusand.Location = new System.Drawing.Point(407, 98);
             this.txtusand.Name = "txtusand";
-            this.txtusand.Size = new System.Drawing.Size(37, 13);
+            this.txtusand.Size = new System.Drawing.Size(13, 13);
             this.txtusand.TabIndex = 34;
-            this.txtusand.Text = "62000";
+            this.txtusand.Text = "0";
             // 
             // txtmetal
             // 
             this.txtmetal.AutoSize = true;
             this.txtmetal.Location = new System.Drawing.Point(407, 129);
             this.txtmetal.Name = "txtmetal";
-            this.txtmetal.Size = new System.Drawing.Size(37, 13);
+            this.txtmetal.Size = new System.Drawing.Size(13, 13);
             this.txtmetal.TabIndex = 33;
-            this.txtmetal.Text = "54000";
+            this.txtmetal.Text = "0";
             // 
             // txtcsand
             // 
             this.txtcsand.AutoSize = true;
             this.txtcsand.Location = new System.Drawing.Point(407, 67);
             this.txtcsand.Name = "txtcsand";
-            this.txtcsand.Size = new System.Drawing.Size(37, 13);
+            this.txtcsand.Size = new System.Drawing.Size(13, 13);
             this.txtcsand.TabIndex = 32;
-            this.txtcsand.Text = "45000";
+            this.txtcsand.Text = "0";
             // 
             // txtcement
             // 
             this.txtcement.AutoSize = true;
             this.txtcement.Location = new System.Drawing.Point(407, 40);
             this.txtcement.Name = "txtcement";
-            this.txtcement.Size = new System.Drawing.Size(37, 13);
+            this.txtcement.Size = new System.Drawing.Size(13, 13);
             this.txtcement.TabIndex = 31;
-            this.txtcement.Text = "56700";
+            this.txtcement.Text = "0";
             // 
             // txthypercrete
             // 
             this.txthypercrete.AutoSize = true;
             this.txthypercrete.Location = new System.Drawing.Point(407, 190);
             this.txthypercrete.Name = "txthypercrete";
-            this.txthypercrete.Size = new System.Drawing.Size(37, 13);
+            this.txthypercrete.Size = new System.Drawing.Size(13, 13);
             this.txthypercrete.TabIndex = 30;
-            this.txthypercrete.Text = "37000";
+            this.txthypercrete.Text = "0";
             // 
             // txtadcreteout
             // 
             this.txtadcreteout.AutoSize = true;
             this.txtadcreteout.Location = new System.Drawing.Point(276, 161);
             this.txtadcreteout.Name = "txtadcreteout";
-            this.txtadcreteout.Size = new System.Drawing.Size(35, 13);
+            this.txtadcreteout.Size = new System.Drawing.Size(13, 13);
             this.txtadcreteout.TabIndex = 29;
-            this.txtadcreteout.Text = "label8";
+            this.txtadcreteout.Text = "0";
             // 
             // txtusandout
             // 
             this.txtusandout.AutoSize = true;
             this.txtusandout.Location = new System.Drawing.Point(276, 98);
             this.txtusandout.Name = "txtusandout";
-            this.txtusandout.Size = new System.Drawing.Size(35, 13);
+            this.txtusandout.Size = new System.Drawing.Size(13, 13);
             this.txtusandout.TabIndex = 28;
-            this.txtusandout.Text = "label9";
+            this.txtusandout.Text = "0";
             // 
             // txtmetalout
             // 
             this.txtmetalout.AutoSize = true;
             this.txtmetalout.Location = new System.Drawing.Point(276, 129);
             this.txtmetalout.Name = "txtmetalout";
-            this.txtmetalout.Size = new System.Drawing.Size(41, 13);
+            this.txtmetalout.Size = new System.Drawing.Size(13, 13);
             this.txtmetalout.TabIndex = 27;
-            this.txtmetalout.Text = "label10";
+            this.txtmetalout.Text = "0";
             // 
             // txtcsandout
             // 
             this.txtcsandout.AutoSize = true;
             this.txtcsandout.Location = new System.Drawing.Point(276, 67);
             this.txtcsandout.Name = "txtcsandout";
-            this.txtcsandout.Size = new System.Drawing.Size(41, 13);
+            this.txtcsandout.Size = new System.Drawing.Size(13, 13);
             this.txtcsandout.TabIndex = 26;
-            this.txtcsandout.Text = "label11";
+            this.txtcsandout.Text = "0";
             // 
             // txtcementout
             // 
             this.txtcementout.AutoSize = true;
             this.txtcementout.Location = new System.Drawing.Point(276, 40);
             this.txtcementout.Name = "txtcementout";
-            this.txtcementout.Size = new System.Drawing.Size(41, 13);
+            this.txtcementout.Size = new System.Drawing.Size(13, 13);
             this.txtcementout.TabIndex = 25;
-            this.txtcementout.Text = "label12";
+            this.txtcementout.Text = "0";
             // 
             // txthypercreteout
             // 
             this.txthypercreteout.AutoSize = true;
             this.txthypercreteout.Location = new System.Drawing.Point(276, 190);
             this.txthypercreteout.Name = "txthypercreteout";
-            this.txthypercreteout.Size = new System.Drawing.Size(41, 13);
+            this.txthypercreteout.Size = new System.Drawing.Size(13, 13);
             this.txthypercreteout.TabIndex = 24;
-            this.txthypercreteout.Text = "label13";
+            this.txthypercreteout.Text = "0";
             // 
             // txtadcretein
             // 
             this.txtadcretein.AutoSize = true;
             this.txtadcretein.Location = new System.Drawing.Point(187, 161);
             this.txtadcretein.Name = "txtadcretein";
-            this.txtadcretein.Size = new System.Drawing.Size(35, 13);
+            this.txtadcretein.Size = new System.Drawing.Size(13, 13);
             this.txtadcretein.TabIndex = 23;
-            this.txtadcretein.Text = "label1";
+            this.txtadcretein.Text = "0";
             // 
             // txtusandin
             // 
             this.txtusandin.AutoSize = true;
             this.txtusandin.Location = new System.Drawing.Point(187, 98);
             this.txtusandin.Name = "txtusandin";
-            this.txtusandin.Size = new System.Drawing.Size(35, 13);
+            this.txtusandin.Size = new System.Drawing.Size(13, 13);
             this.txtusandin.TabIndex = 22;
-            this.txtusandin.Text = "label3";
+            this.txtusandin.Text = "0";
+            this.txtusandin.Click += new System.EventHandler(this.txtusandin_Click);
             // 
             // txtmetalin
             // 
             this.txtmetalin.AutoSize = true;
             this.txtmetalin.Location = new System.Drawing.Point(187, 129);
             this.txtmetalin.Name = "txtmetalin";
-            this.txtmetalin.Size = new System.Drawing.Size(35, 13);
+            this.txtmetalin.Size = new System.Drawing.Size(13, 13);
             this.txtmetalin.TabIndex = 21;
-            this.txtmetalin.Text = "label4";
+            this.txtmetalin.Text = "0";
             // 
             // txtcsandin
             // 
             this.txtcsandin.AutoSize = true;
             this.txtcsandin.Location = new System.Drawing.Point(187, 67);
             this.txtcsandin.Name = "txtcsandin";
-            this.txtcsandin.Size = new System.Drawing.Size(35, 13);
+            this.txtcsandin.Size = new System.Drawing.Size(13, 13);
             this.txtcsandin.TabIndex = 20;
-            this.txtcsandin.Text = "label5";
+            this.txtcsandin.Text = "0";
             // 
             // txtcementin
             // 
             this.txtcementin.AutoSize = true;
             this.txtcementin.Location = new System.Drawing.Point(187, 40);
             this.txtcementin.Name = "txtcementin";
-            this.txtcementin.Size = new System.Drawing.Size(35, 13);
+            this.txtcementin.Size = new System.Drawing.Size(13, 13);
             this.txtcementin.TabIndex = 19;
-            this.txtcementin.Text = "label6";
+            this.txtcementin.Text = "0";
             // 
             // txthypercretein
             // 
             this.txthypercretein.AutoSize = true;
             this.txthypercretein.Location = new System.Drawing.Point(187, 190);
             this.txthypercretein.Name = "txthypercretein";
-            this.txthypercretein.Size = new System.Drawing.Size(35, 13);
+            this.txthypercretein.Size = new System.Drawing.Size(13, 13);
             this.txthypercretein.TabIndex = 18;
-            this.txthypercretein.Text = "label7";
+            this.txthypercretein.Text = "0";
             // 
             // label14
             // 
@@ -519,23 +521,23 @@ namespace Informex_Concreting_Material_Management
             // chart1
             // 
             this.chart1.BackColor = System.Drawing.Color.Transparent;
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
+            chartArea3.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chart1.Legends.Add(legend3);
             this.chart1.Location = new System.Drawing.Point(179, 315);
             this.chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            series1.Legend = "Legend1";
-            series1.Name = "Stock in";
-            series2.ChartArea = "ChartArea1";
-            series2.Color = System.Drawing.Color.Crimson;
-            series2.Legend = "Legend1";
-            series2.Name = "Stock out";
-            this.chart1.Series.Add(series1);
-            this.chart1.Series.Add(series2);
-            this.chart1.Size = new System.Drawing.Size(669, 256);
+            series5.ChartArea = "ChartArea1";
+            series5.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            series5.Legend = "Legend1";
+            series5.Name = "Stock in";
+            series6.ChartArea = "ChartArea1";
+            series6.Color = System.Drawing.Color.Crimson;
+            series6.Legend = "Legend1";
+            series6.Name = "Stock out";
+            this.chart1.Series.Add(series5);
+            this.chart1.Series.Add(series6);
+            this.chart1.Size = new System.Drawing.Size(597, 256);
             this.chart1.TabIndex = 4;
             this.chart1.Text = "chart1";
             // 
@@ -555,7 +557,7 @@ namespace Informex_Concreting_Material_Management
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(716, 463);
+            this.label1.Location = new System.Drawing.Point(644, 476);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(181, 22);
             this.label1.TabIndex = 6;
@@ -570,11 +572,27 @@ namespace Informex_Concreting_Material_Management
             this.dateTimePicker3.Size = new System.Drawing.Size(100, 20);
             this.dateTimePicker3.TabIndex = 17;
             // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
+            this.button7.FlatAppearance.BorderSize = 5;
+            this.button7.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button7.Location = new System.Drawing.Point(777, 299);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(125, 35);
+            this.button7.TabIndex = 18;
+            this.button7.Text = "SHOW AVAILABLE";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Report
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(938, 583);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.dateTimePicker3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.CEMENT);
@@ -643,5 +661,6 @@ namespace Informex_Concreting_Material_Management
         private System.Windows.Forms.Label CEMENT;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.Button button7;
     }
 }
